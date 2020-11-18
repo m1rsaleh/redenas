@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body header .top-head {
+  background-color: red;
+  width: auto;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body header .top-head div {
+  margin-right: 75px;
+}
+
+@media (max-width: 767px) {
+  body header .top-head div {
+    margin-right: 0;
+  }
+}
+
+body header .top-head div img {
+  width: 20px;
+  height: 20px;
+  margin: 7px;
+}
+
+body header .menu .navbar .navbar-brand {
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+body header .menu .navbar .navbar-brand .logo {
+  width: 30px;
+}
+
+body header .menu .navmenu .navbar-nav {
+  font-size: 1.6rem;
+}
+
+body header .menu .navmenu .navbar-nav .color a {
+  color: red;
+}
+
+body header .menu .search img {
+  width: 30px;
+}
+
+@media (max-width: 767px) {
+  body header .menu .search img {
+    display: none;
+  }
+}
+
+body main .main-div {
+  background-image: url(./img/capdfrawy-ksVq_Mv-Q-0-unsplash.jpg);
+  height: 900px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+body main .main-div .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 7rem;
+}
+
+body main .main-div .right h1 {
+  color: red;
+}
+
+body main .main-div .right .point {
+  border: 2px red dashed;
+  width: 77px;
+  margin: 1rem;
+}
+
+body main .main-div .right p {
+  margin: 2.5rem 8rem;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  body main .main-div .right p {
+    width: 21rem;
+  }
+}
+
+body main .main-div .left {
+  margin-top: 3rem;
+}
+
+body main .last-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1rem;
+}
+
+body main .last-main ul {
+  text-align: center;
+  width: 20%;
+  margin: 40px 0;
+}
+
+@media (max-width: 767px) {
+  body main .last-main ul {
+    width: 100%;
+  }
+}
+
+body main .last-main ul .icon img {
+  width: 5rem;
+}
+
+body main .last-main ul .title {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+
+body main .last-main ul .text {
+  color: grey;
+}
+
+body main .last-main ul .text-2 {
+  margin: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+body footer {
+  background-color: #010124;
+  height: 400px;
+}
+
+body footer .foot {
+  color: #e61212;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .foot i {
+  margin-right: 20px;
+  font-size: 2rem;
+  padding: 10px 10px;
+  background-color: #655ace;
+  border-radius: 2rem;
+}
+
+body footer .foot .fb {
+  padding: 10px 17px;
+}
+
+body footer .foot .ins {
+  padding: 10px 13px;
+}
+/*# sourceMappingURL=style.css.map */
